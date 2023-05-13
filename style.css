@@ -1,0 +1,39 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    background: #F4EEE0;
+}
+.container{
+    width: 310px;
+    height: 505px;
+    background: #22252d;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgb(0,0,0.3);
+}
+.container h2{
+    color: rgb(209 219 203);
+    font-size: 29px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+.button{
+    width: 50px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    padding: 10px 29px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
